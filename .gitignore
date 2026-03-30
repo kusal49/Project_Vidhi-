@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+credentials.json
+token.json
+env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Large PDFs (exceeds GitHub 100MB limit)
+data/Income tax act.pdf
+data/pdfs/Income tax act.pdf
+
+# ChromaDB (generated data)
+data/chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
